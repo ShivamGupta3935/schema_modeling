@@ -5,7 +5,7 @@ const medicalReportSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    
+
 }, {timestamps: true})
 
 export const MedicalReport = mongoose.model("MedicalReport", medicalReportSchema)
